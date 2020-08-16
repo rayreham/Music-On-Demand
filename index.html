@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head >
+    <style> 
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        background-color: rgb(100, 105, 110);
+        text-align: center;
+      }
+
+      body, html {
+      height: 100%;
+      margin: 0;
+      }
+
+      .bg {
+        background-image: url("bckgd.jpg");
+        height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Apple Music Search</title>
+  </head>
+
+  <body class="bg"> 
+      <header>
+        <h1>☁️MusicOnDemand☁️</h1>
+        <div class = cg>
+        <p class = pp>Use the search bar to access the Apple Music Api and find your favorite music!</p></div>
+        <div class="navLinks">
+        <form class="" action="index.html" method="post"></form>
+          <input type="text" class="searchBar" value="" placeholder="Search artist, song, album, etc...">
+          <input type="submit" class="searchButton" value="SEARCH">
+        </div>
+      </header>
+
+      <section class="player">
+        <audio class="musicPlayer" controls="controls" autoplay src=""></audio>
+      </section>
+
+      <section class="results"></section>
+      </div>
+      <div id="searchItems" class="searchItems">
+      </div>
+      <script type="text/javascript" src="main.js"></script>
+    
+      <div class="footer">
+        <h3 style= "text-align: center;" >~Inspo~</h3>
+
+        <p style ="color:white">This web application allows you to search the Apple music API for songs, artists, a
+          nd albums. I am an avid listener of music of all genres and have come across many music platforms that do not 
+          have artists that I listen to. I decided to use this project to develop a platform that will allow me to preview 
+          artists' songs without downloading their application blindly. This was an incredibly fun and informative project to work on :)
+        </p>
+
+      </div>
+      </div>
+  </body>
+</html>

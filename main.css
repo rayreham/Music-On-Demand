@@ -1,0 +1,80 @@
+h1{
+font-family: 'Lucida Sans';
+text-shadow: 1px 1px 0 #FFFFFF, 2px 2px 0 #000000;
+color:rgb(178, 225, 247);
+text-align: center;
+padding-top: 0%;
+margin: 0;
+font-size: 4em;
+font-style: italic;
+border-bottom: 8px dotted rgb(153, 154, 231);
+    text-decoration: none;
+}
+
+
+.pp{
+  text-align: center;
+  font-size: 30px;
+  color: #D0F8FF;
+    text-shadow: 0 0 5px rgb(47, 197, 235), 0 0 10px rgb(24, 98, 235),
+             0 0 20px rgb(2, 13, 15), 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
+}
+
+.musicPlayer{
+  display:hidden;
+  width:50%;
+  padding-top: 40px;
+  left: 25%;
+}
+
+.results{
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   flex-flow: row wrap;
+   align-content: flex-end;
+   background: linear-gradient(10deg, rgb(255, 193, 219), rgb(112, 204, 247)); 
+
+}
+
+.searchButton{
+  position: absolute;
+  right: 20%;
+}
+
+.resultBox{
+  text-align: auto;
+  margin:1%;
+  flex: 0 0 50%;
+}
+
+
+img:hover{
+    filter:saturate(100%);
+}
+
+
+img{
+  margin: 6%;
+  filter:opacity(80%);
+}
+@media screen and (min-width: 400px) {
+
+.resultBox{
+  text-align: center;
+  background: linear-gradient(10deg, rgb(255, 193, 219), rgb(112, 204, 247)); 
+  margin:1px;
+  flex: 0 0 18%;
+  
+}
+
+.searchBar{
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  }
+}
