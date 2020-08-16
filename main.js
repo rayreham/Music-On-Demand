@@ -8,7 +8,7 @@
    let searchBara = document.querySelector('.searchBar')
    let keyWords = searchBara.value
 
-
+  //api is here
    let appleSearchURL = 'https://itunes.apple.com/search?term=' + keyWords;
    let audio = document.querySelector('.audio')
    let results = document.querySelector('.results')
